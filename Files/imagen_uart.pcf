@@ -1,0 +1,36 @@
+set_io leds[0] 95
+set_io leds[1] 96
+set_io leds[2] 97
+set_io leds[3] 98
+set_io leds[4] 99
+set_io leds[5] 101
+set_io leds[6] 102
+set_io leds[7] 104
+
+set_io clk  21
+set_io rst_hw 10
+
+set_io in_pixel[0] 119
+set_io in_pixel[1] 118
+set_io in_pixel[2] 117
+set_io in_pixel[3] 116
+
+set_io in_pixel[4] 115
+set_io in_pixel[5] 114
+set_io in_pixel[6] 113
+set_io in_pixel[7] 112
+
+
+set_io PCLK_ext  	37
+set_io VSYNC_ext	38
+
+set_io PCLK	  	42
+set_io clk_ext	43
+set_io VSYNC   	49
+set_io Href  	50
+
+set_io sel_leds[0] 138
+set_io sel_leds[1] 139
+set_io sel_leds[2] 141
+
+set_io tx   8
