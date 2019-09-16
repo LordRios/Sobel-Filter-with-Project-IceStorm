@@ -32,7 +32,7 @@ reg transmit;
 reg start;  //-- Transmitir cadena (cuando transmit = 1)
 
 //-- Flag fin de transmisión
-reg uart_flag_reg=0;     
+reg uart_flag=0;     
 
 //------------------------------------------------
 //-- 	RUTA DE DATOS
@@ -104,7 +104,7 @@ always @(posedge clk) begin
     state <= IDLE;
 
   else begin
-    uart_flag_reg <= 0;
+    uart_flag <= 0;
     cena <= 0;
   	
     case (state)
@@ -129,16 +129,16 @@ always @(posedge clk) begin
         	state <= END;
           if (new_img) cena <= 1;	
       	  else
-      		  uart_flag_reg <= 1;
+      		  uart_flag <= 1;
 		end
 		
         else state <= SENDING;
         
         
       END: begin
-        if (uart_flag_reg || cena) begin
+        if (uart_flag || cena) begin
         	state <= IDLE;
-      		uart_flag_reg <= 0;
+      		uart_flag <= 0;
       		cena <= 0;
         end
         
