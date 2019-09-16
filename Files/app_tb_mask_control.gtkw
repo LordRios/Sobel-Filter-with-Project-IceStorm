@@ -1,0 +1,63 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Mon Sep 16 16:42:24 2019
+[*]
+[dumpfile] "/home/ivan/Documentos/App_camara/Files/app_tb.vcd"
+[dumpfile_mtime] "Mon Sep 16 16:06:16 2019"
+[dumpfile_size] 876819
+[savefile] "/home/ivan/Documentos/App_camara/Files/app_tb_mask_control.gtkw"
+[timestart] 9471
+[size] 1600 837
+[pos] -1 -1
+*-10.000000 5400 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] app_tb.
+[treeopen] app_tb.app.
+[treeopen] app_tb.app.control_uart.
+[sst_width] 198
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 234
+@200
+-INPUTS
+@28
+app_tb.app.clk
+app_tb.app.Href
+app_tb.app.pixel_luminancia
+app_tb.app.control_RAM.out_rw[11:0]
+app_tb.app.mask_control.first_mask
+app_tb.app.mask_control.mask_flag
+@29
+app_tb.app.mask_control.sobel_pulse
+@200
+-REGISTERS
+@24
+app_tb.app.RAMs.ro0[7:0]
+app_tb.app.RAMs.ro1[7:0]
+app_tb.app.RAMs.ro2[7:0]
+app_tb.app.RAMs.ro3[7:0]
+app_tb.app.RAMs.ro4[7:0]
+app_tb.app.RAMs.ro5[7:0]
+app_tb.app.RAMs.ro6[7:0]
+app_tb.app.RAMs.ro7[7:0]
+app_tb.app.RAMs.ro8[7:0]
+app_tb.app.RAMs.ro9[7:0]
+app_tb.app.RAMs.ro10[7:0]
+app_tb.app.RAMs.ro11[7:0]
+@200
+-Salida Pixel_Order
+@28
+app_tb.app.mask_control.pos_mask_v[1:0]
+app_tb.app.mask_control.pos_mask_h[1:0]
+@24
+app_tb.app.pixel_order.order[3:0]
+app_tb.app.pixel_order.p0[7:0]
+app_tb.app.pixel_order.p1[7:0]
+app_tb.app.pixel_order.p2[7:0]
+app_tb.app.pixel_order.p3[7:0]
+app_tb.app.pixel_order.p5[7:0]
+app_tb.app.pixel_order.p6[7:0]
+app_tb.app.pixel_order.p7[7:0]
+app_tb.app.pixel_order.p8[7:0]
+app_tb.app.mask_control.count_width_row[8:0]
+[pattern_trace] 1
+[pattern_trace] 0

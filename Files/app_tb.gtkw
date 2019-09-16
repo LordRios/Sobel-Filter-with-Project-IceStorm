@@ -1,15 +1,15 @@
 [*]
 [*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
-[*] Mon Sep 16 11:01:58 2019
+[*] Mon Sep 16 16:12:26 2019
 [*]
 [dumpfile] "/home/ivan/Documentos/App_camara/Files/app_tb.vcd"
-[dumpfile_mtime] "Mon Sep 16 10:46:19 2019"
+[dumpfile_mtime] "Mon Sep 16 16:06:16 2019"
 [dumpfile_size] 876819
 [savefile] "/home/ivan/Documentos/App_camara/Files/app_tb.gtkw"
-[timestart] 4838
+[timestart] 4970
 [size] 1600 837
 [pos] -1 -1
-*-10.000000 12875 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-11.000000 12875 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] app_tb.
 [treeopen] app_tb.app.
 [treeopen] app_tb.app.control_uart.
@@ -19,11 +19,13 @@
 [sst_vpaned_height] 234
 @200
 -INPUTS
-@29
-app_tb.app.clk
 @28
+app_tb.app.clk
 app_tb.app.rst
 app_tb.app.VSYNC
+@29
+app_tb.app.control_RAM.getting_img
+@28
 app_tb.app.Href
 app_tb.app.PCLK
 app_tb.app.pixel_luminancia
@@ -43,6 +45,7 @@ app_tb.app.out[7:0]
 app_tb.app.control_uart.uart_tx.data_r[7:0]
 @28
 app_tb.app.control_uart.tx
+app_tb.app.control_RAM.out_rw[11:0]
 @200
 -RAMs Input
 @24

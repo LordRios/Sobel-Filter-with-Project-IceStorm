@@ -1,0 +1,58 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Mon Sep 16 19:14:55 2019
+[*]
+[dumpfile] "/home/ivan/Documentos/App_camara/Files/app_tb.vcd"
+[dumpfile_mtime] "Mon Sep 16 16:06:16 2019"
+[dumpfile_size] 876819
+[savefile] "/home/ivan/Documentos/App_camara/Files/app_tb_ciclos.gtkw"
+[timestart] 9988
+[size] 1600 837
+[pos] -1 -1
+*-5.000000 9991 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] app_tb.
+[treeopen] app_tb.app.
+[treeopen] app_tb.app.control_uart.
+[sst_width] 198
+[signals_width] 185
+[sst_expanded] 1
+[sst_vpaned_height] 234
+@200
+-INPUTS
+@29
+app_tb.app.clk
+@28
+app_tb.app.control_uart.VSYNC
+app_tb.app.Href
+app_tb.app.PCLK
+app_tb.app.pixel_luminancia
+app_tb.app.control_RAM.RAM_flag
+app_tb.app.RAMs.mask_flag
+app_tb.app.sobel_pulse
+app_tb.app.control_uart.uart_flag
+@200
+-REGISTERS
+@24
+app_tb.app.sobel.p0[7:0]
+app_tb.app.sobel.p1[7:0]
+app_tb.app.sobel.p2[7:0]
+app_tb.app.sobel.p3[7:0]
+app_tb.app.sobel.p5[7:0]
+app_tb.app.sobel.p6[7:0]
+app_tb.app.sobel.p7[7:0]
+app_tb.app.sobel.p8[7:0]
+@200
+-SOBEL
+@420
+app_tb.app.sobel.gx[10:0]
+app_tb.app.sobel.gy[10:0]
+@24
+app_tb.app.sobel.out[7:0]
+@200
+-OUTPUT
+@24
+app_tb.app.control_uart.uart_tx.data_r[7:0]
+@28
+app_tb.app.control_uart.uart_tx.tx
+[pattern_trace] 1
+[pattern_trace] 0
