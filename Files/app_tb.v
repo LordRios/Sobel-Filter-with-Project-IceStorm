@@ -22,7 +22,7 @@ wire [7:0]  leds;
 wire tx;
 wire clk_ext;
 
-parameter WIDTH_SOBEL = 8; //318
+parameter WIDTH_SOBEL = 8; //318 para el modo ejecución
 //-- Instanciar el componente
 app   #(.WIDTH_SOBEL(WIDTH_SOBEL))
 app(
@@ -47,7 +47,7 @@ always #1 clk = ~clk;
 //-- Generador de reloj. Periodo 12 unidades
 always #Tmedios_PCLK PCLK = ~PCLK;
 
-localparam T_p = T_PCLK; // inicialmente estaba x2 por algo xDDDDDDDDDDDDDDDD
+localparam T_p = T_PCLK; 
 
 localparam T_upHREF = T_p*320;
 localparam T_downHREF = T_PCLK; //--localparam T_downHREF = T_p*72;

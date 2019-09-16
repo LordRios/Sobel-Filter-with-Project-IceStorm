@@ -1,0 +1,62 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Mon Sep 16 11:53:24 2019
+[*]
+[dumpfile] "/home/ivan/Documentos/App_camara/Files/app_tb.vcd"
+[dumpfile_mtime] "Mon Sep 16 11:41:53 2019"
+[dumpfile_size] 876819
+[savefile] "/home/ivan/Documentos/App_camara/Files/app_tb_read_RAM.gtkw"
+[timestart] 4690
+[size] 1600 837
+[pos] -1 -1
+*-11.000000 6153 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] app_tb.
+[treeopen] app_tb.app.
+[treeopen] app_tb.app.control_uart.
+[sst_width] 198
+[signals_width] 185
+[sst_expanded] 1
+[sst_vpaned_height] 234
+@200
+-INPUTS
+@28
+app_tb.app.clk
+app_tb.app.rst
+app_tb.app.VSYNC
+app_tb.app.Href
+app_tb.app.PCLK
+app_tb.app.pixel_luminancia
+@24
+app_tb.app.in_pixel[7:0]
+@200
+-REGISTERS
+@24
+app_tb.app.control_RAM.ru0[7:0]
+app_tb.app.control_RAM.ru1[7:0]
+app_tb.app.control_RAM.ru2[7:0]
+app_tb.app.control_RAM.ru3[7:0]
+app_tb.app.control_RAM.ru4[7:0]
+app_tb.app.control_RAM.ru5[7:0]
+app_tb.app.control_RAM.ru6[7:0]
+app_tb.app.control_RAM.ru7[7:0]
+app_tb.app.control_RAM.ru8[7:0]
+app_tb.app.control_RAM.ru9[7:0]
+app_tb.app.control_RAM.ru10[7:0]
+app_tb.app.control_RAM.ru11[7:0]
+@204
+-ADDR_READ
+@24
+app_tb.app.control_RAM.addru_read0[6:0]
+app_tb.app.control_RAM.addru_read1[6:0]
+app_tb.app.control_RAM.addru_read2[6:0]
+app_tb.app.control_RAM.addru_read3[6:0]
+app_tb.app.control_RAM.addru_read4[6:0]
+app_tb.app.control_RAM.addru_read5[6:0]
+app_tb.app.control_RAM.addru_read6[6:0]
+app_tb.app.control_RAM.addru_read7[6:0]
+app_tb.app.control_RAM.addru_read8[6:0]
+app_tb.app.control_RAM.addru_read9[6:0]
+app_tb.app.control_RAM.addru_read10[6:0]
+app_tb.app.control_RAM.addru_read11[6:0]
+[pattern_trace] 1
+[pattern_trace] 0

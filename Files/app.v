@@ -88,7 +88,7 @@ wire [AW-1:0]  addr_read0,addr_read1,addr_read2,
 			   addr_read9,addr_read10,addr_read11;
 
 
-wire [11:0] out_rw
+wire [11:0] out_rw;
 
 //----------------------------------------------- control_RAM
 

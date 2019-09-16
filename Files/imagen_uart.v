@@ -92,7 +92,6 @@ control_uart #(.BAUD(BAUD))
     .VSYNC(VSYNC),
     .data(in_pixel),
     .ready(ready),
-    .uart_flag(uart_flag),
     .tx(tx)
  );
 

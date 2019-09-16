@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Mon Sep 16 11:47:53 2019
+[*]
+[dumpfile] "/home/ivan/Documentos/App_camara/Files/imagen_uart_tb.vcd"
+[dumpfile_mtime] "Mon Sep 16 11:43:39 2019"
+[dumpfile_size] 556646
+[savefile] "/home/ivan/Documentos/App_camara/Files/imagen_uart_tb.gtkw"
+[timestart] 1596
+[size] 1600 837
+[pos] -301 -104
+*-10.000000 896 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] imagen_uart_tb.
+[treeopen] imagen_uart_tb.imagen_uart.
+[treeopen] imagen_uart_tb.imagen_uart.control_uart.
+[treeopen] imagen_uart_tb.imagen_uart.control_uart.uart_tx.
+[sst_width] 198
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 234
+@28
+imagen_uart_tb.clk
+imagen_uart_tb.rst_hw
+imagen_uart_tb.VSYNC
+imagen_uart_tb.Href
+imagen_uart_tb.PCLK
+@200
+-SIGNALS
+@24
+imagen_uart_tb.in_pixel[7:0]
+@28
+imagen_uart_tb.imagen_uart.par
+imagen_uart_tb.imagen_uart.control_uart.dtr
+imagen_uart_tb.imagen_uart.control_uart.uart_flag
+@201
+-OUTPUTS
+@24
+imagen_uart_tb.imagen_uart.control_uart.uart_tx.data_r[7:0]
+@28
+imagen_uart_tb.tx
+[pattern_trace] 1
+[pattern_trace] 0
